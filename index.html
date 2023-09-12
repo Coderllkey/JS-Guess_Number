@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate_bg.css">
+</head>
+<body>
+    <div class="background z-0">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+     </div>
+    <div class="container">
+        <div class="card ">
+            <h3>Guess a number between 1-100</h3>
+            <h3>I DARE YOU Can't??</h3>
+            <input type="number" id="1" class="input-1 w-h"><br>
+            <input type="submit" onclick="pressStart()" name=""  class="btn-1 btn-model w-h" id="" value="Guess">
+            <p class="mt-10 advert"></p>
+
+            <p class="mt-10 guessChance">Number of chances of guess:</p>
+            <p class="mt-10 guessArr">Guessed numbers are:</p>
+            <button class="btn-2 mt-10 w-h btn-model" onclick="restart()">Restart</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
